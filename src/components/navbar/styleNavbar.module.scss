@@ -1,0 +1,23 @@
+.Navbar {
+  padding: 15px 40px;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 20px black;
+  height: 70px;
+  ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: black;
+    li {
+      border-bottom: 1px solid black;
+      &:hover {
+        border-top: 1px solid black;
+      }
+    }
+  }
+}

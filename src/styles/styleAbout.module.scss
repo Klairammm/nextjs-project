@@ -1,0 +1,15 @@
+.About {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  background-color: #65647c;
+  h1 {
+    filter: drop-shadow(2px 2px 10px rgb(43, 42, 44));
+    border-bottom: 1px solid whitesmoke;
+    width: 100vh;
+    text-align: center;
+  }
+}
