@@ -5,6 +5,7 @@ const Layout = ({ children }) => {
   return (
     <div className={style.Layout}>
       <Navbar />
+      {children}
     </div>
   );
 };

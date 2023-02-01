@@ -1,6 +1,7 @@
 import style from "../../styles/stylePosts.module.scss";
 
 export default function Posts({ users }) {
+  console.log(users);
   return (
     <div className={style.Posts}>
       <h1 className={style.title}>Explore Posts</h1>
