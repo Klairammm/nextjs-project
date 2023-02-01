@@ -4,12 +4,30 @@
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  height: calc(100vh - 70px);
   background-color: #65647c;
   .title {
+    padding: 10px;
     filter: drop-shadow(2px 2px 10px rgb(43, 42, 44));
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 6px solid whitesmoke;
     width: 100vh;
     text-align: center;
+  }
+  .posts {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: calc(100vh - 150px);
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .postCard {
+      border: 1px solid whitesmoke;
+      border-radius: 6px;
+      box-shadow: 1px 1px 10px rgb(43, 42, 44);
+      padding: 20px;
+    }
   }
 }
