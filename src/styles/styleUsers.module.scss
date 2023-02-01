@@ -33,6 +33,9 @@
       transition: all 0.35s;
       &:hover {
         background-color: #9b9aa7;
+        border-left: 3px solid whitesmoke;
+        border-right: 3px solid whitesmoke;
+        transform: scale(1.1);
       }
       img {
         width: 200px;

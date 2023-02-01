@@ -27,7 +27,20 @@ export default function Users({ users }) {
   );
 }
 
-export async function getStaticProps() {
+// export async function getStaticProps() {
+//   const resUsers = await fetch("https://dummyjson.com/users");
+//   const dataUsers = await resUsers.json();
+
+//   return {
+//     props: {
+//       users: dataUsers.users,
+//     },
+//   };
+// }
+
+//SERVER SIDE RENDERING
+
+export async function getServerSideProps() {
   const resUsers = await fetch("https://dummyjson.com/users");
   const dataUsers = await resUsers.json();
 
