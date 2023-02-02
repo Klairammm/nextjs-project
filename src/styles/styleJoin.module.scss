@@ -1,0 +1,19 @@
+.Join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 6rem;
+  height: calc(100vh - 70px);
+  background-color: #65647c;
+
+  canvas {
+    filter: drop-shadow(2px 2px 10px rgb(43, 42, 44));
+
+    border-radius: 6px;
+    width: calc(100vw - 200px);
+    height: 100px;
+    background-color: transparent;
+  }
+}
